@@ -1,0 +1,54 @@
+{
+    "name": "makise-co/auth",
+    "description": "Makise-Co Auth component",
+    "keywords": [
+        "micro",
+        "framework",
+        "makise",
+        "coroutine",
+        "swoole",
+        "http",
+        "auth",
+        "authentication",
+        "authorization"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry K.",
+            "email": "coder1994@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "suggest": {
+        "makise-co/http": "For HTTP integration"
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "makise-co/framework": "~2.0.0"
+    },
+    "require-dev": {
+        "makise-co/http": "~2.0.0",
+        "phpstan/phpstan": "^0.12.18",
+        "phpstan/phpstan-phpunit": "^0.12.6",
+        "phpunit/phpunit": "^9.0",
+        "swoole/ide-helper": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakiseCo\\Auth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MakiseCo\\Auth\\Tests\\": "tests/"
+        }
+    }
+}
