@@ -1,13 +1,16 @@
 {
     "name": "makise-co/auth",
-    "description": "PHP Coroutine micro framework",
+    "description": "Makise-Co Auth component",
     "keywords": [
         "micro",
         "framework",
         "makise",
         "coroutine",
         "swoole",
-        "http"
+        "http",
+        "auth",
+        "authentication",
+        "authorization"
     ],
     "type": "library",
     "license": "MIT",
