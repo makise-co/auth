@@ -15,6 +15,7 @@ return [
         'token' => [
             'class' => \MakiseCo\Auth\Guard\BearerTokenGuard::class,
             'provider' => 'database',
+            'storageKey' => 'token',
         ]
     ],
 
